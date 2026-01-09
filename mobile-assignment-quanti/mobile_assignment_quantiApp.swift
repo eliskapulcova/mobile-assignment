@@ -10,7 +10,7 @@ import SwiftData
 
 @main
 struct mobile_assignment_quantiApp: App {
-    var sharedModelContainer: ModelContainer = {
+    /*var sharedModelContainer: ModelContainer = {
         let schema = Schema([
             Item.self,
         ])
@@ -21,12 +21,12 @@ struct mobile_assignment_quantiApp: App {
         } catch {
             fatalError("Could not create ModelContainer: \(error)")
         }
-    }()
+    }()*/
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            RocketListView()
         }
-        .modelContainer(sharedModelContainer)
+        //.modelContainer(sharedModelContainer)
     }
 }

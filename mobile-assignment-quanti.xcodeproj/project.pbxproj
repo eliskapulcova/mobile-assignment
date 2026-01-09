@@ -15,6 +15,11 @@
 		EC6C78DF2F0E8414006B8223 /* mobile_assignment_quantiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6C78DE2F0E8414006B8223 /* mobile_assignment_quantiTests.swift */; };
 		EC6C78E92F0E8414006B8223 /* mobile_assignment_quantiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6C78E82F0E8414006B8223 /* mobile_assignment_quantiUITests.swift */; };
 		EC6C78EB2F0E8414006B8223 /* mobile_assignment_quantiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6C78EA2F0E8414006B8223 /* mobile_assignment_quantiUITestsLaunchTests.swift */; };
+		EC6C78FC2F10FD34006B8223 /* Rocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6C78FB2F10FD34006B8223 /* Rocket.swift */; };
+		EC6C78FE2F10FEAC006B8223 /* RocketService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6C78FD2F10FEAC006B8223 /* RocketService.swift */; };
+		EC6C79002F10FED8006B8223 /* RocketListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6C78FF2F10FED8006B8223 /* RocketListView.swift */; };
+		EC6C79022F10FEED006B8223 /* RocketDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6C79012F10FEED006B8223 /* RocketDetailView.swift */; };
+		EC6C79042F10FF1F006B8223 /* RocketListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6C79032F10FF1F006B8223 /* RocketListViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +51,11 @@
 		EC6C78E42F0E8414006B8223 /* mobile-assignment-quantiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "mobile-assignment-quantiUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC6C78E82F0E8414006B8223 /* mobile_assignment_quantiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mobile_assignment_quantiUITests.swift; sourceTree = "<group>"; };
 		EC6C78EA2F0E8414006B8223 /* mobile_assignment_quantiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mobile_assignment_quantiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EC6C78FB2F10FD34006B8223 /* Rocket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rocket.swift; sourceTree = "<group>"; };
+		EC6C78FD2F10FEAC006B8223 /* RocketService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RocketService.swift; sourceTree = "<group>"; };
+		EC6C78FF2F10FED8006B8223 /* RocketListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RocketListView.swift; sourceTree = "<group>"; };
+		EC6C79012F10FEED006B8223 /* RocketDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RocketDetailView.swift; sourceTree = "<group>"; };
+		EC6C79032F10FF1F006B8223 /* RocketListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RocketListViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +106,10 @@
 		EC6C78CA2F0E8411006B8223 /* mobile-assignment-quanti */ = {
 			isa = PBXGroup;
 			children = (
+				EC6C78F72F10FBE1006B8223 /* Model */,
+				EC6C78F82F10FBFF006B8223 /* Networks */,
+				EC6C78F92F10FC14006B8223 /* ViewModel */,
+				EC6C78FA2F10FC35006B8223 /* View */,
 				EC6C78CB2F0E8411006B8223 /* mobile_assignment_quantiApp.swift */,
 				EC6C78CD2F0E8411006B8223 /* ContentView.swift */,
 				EC6C78CF2F0E8411006B8223 /* Item.swift */,
@@ -128,6 +142,39 @@
 				EC6C78EA2F0E8414006B8223 /* mobile_assignment_quantiUITestsLaunchTests.swift */,
 			);
 			path = "mobile-assignment-quantiUITests";
+			sourceTree = "<group>";
+		};
+		EC6C78F72F10FBE1006B8223 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EC6C78FB2F10FD34006B8223 /* Rocket.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EC6C78F82F10FBFF006B8223 /* Networks */ = {
+			isa = PBXGroup;
+			children = (
+				EC6C78FD2F10FEAC006B8223 /* RocketService.swift */,
+			);
+			path = Networks;
+			sourceTree = "<group>";
+		};
+		EC6C78F92F10FC14006B8223 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				EC6C79032F10FF1F006B8223 /* RocketListViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		EC6C78FA2F10FC35006B8223 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EC6C78FF2F10FED8006B8223 /* RocketListView.swift */,
+				EC6C79012F10FEED006B8223 /* RocketDetailView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,9 +307,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC6C78FE2F10FEAC006B8223 /* RocketService.swift in Sources */,
 				EC6C78CE2F0E8411006B8223 /* ContentView.swift in Sources */,
 				EC6C78D02F0E8411006B8223 /* Item.swift in Sources */,
 				EC6C78CC2F0E8411006B8223 /* mobile_assignment_quantiApp.swift in Sources */,
+				EC6C79042F10FF1F006B8223 /* RocketListViewModel.swift in Sources */,
+				EC6C79002F10FED8006B8223 /* RocketListView.swift in Sources */,
+				EC6C79022F10FEED006B8223 /* RocketDetailView.swift in Sources */,
+				EC6C78FC2F10FD34006B8223 /* Rocket.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

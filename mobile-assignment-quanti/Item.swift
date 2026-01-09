@@ -5,7 +5,7 @@
 //  Created by Eliska Pulcova on 07.01.2026.
 //
 
-import Foundation
+/*import Foundation
 import SwiftData
 
 @Model
@@ -16,3 +16,4 @@ final class Item {
         self.timestamp = timestamp
     }
 }
+*/
