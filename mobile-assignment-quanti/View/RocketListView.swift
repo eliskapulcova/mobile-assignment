@@ -22,7 +22,14 @@ struct RocketListView: View {
                 } else {
                     List(viewModel.rockets) { rocket in
                         NavigationLink(value: rocket) {
-                            Text(rocket.name)
+                          VStack(alignment: .leading, spacing: 4) {
+                                Text(rocket.name)
+                                    .font(.headline)
+
+                                Text("First flight: \(rocket.firstFlight)")
+                                    .font(.subheadline)
+                                    .foregroundColor(.secondary)
+                            }
                         }
                     }
                 }
