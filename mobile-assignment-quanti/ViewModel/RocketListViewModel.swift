@@ -14,18 +14,33 @@ final class RocketListViewModel: ObservableObject {
     @Published var isLoading = false
     @Published var errorMessage: String?
 
-    private let service = RocketService()
+    private let service: RocketServiceProtocol
+
+    init(service: RocketServiceProtocol = RocketService()) {
+        self.service = service
+    }
 
     func loadRockets() async {
         isLoading = true
         errorMessage = nil
+        defer { isLoading = false }
 
         do {
             rockets = try await service.fetchRockets()
+        } catch let error as RocketServiceError {
+            switch error {
+            case .notFound:
+                errorMessage = "Rocket not found."
+            case .serverError:
+                errorMessage = "Server error. Please try again later."
+            case .invalidResponse:
+                errorMessage = "Invalid server response."
+            case .decodingFailed:
+                errorMessage = "Failed to process data."
+            }
         } catch {
-            errorMessage = error.localizedDescription
+            errorMessage = "Unexpected error."
         }
-
-        isLoading = false
     }
 }
+
