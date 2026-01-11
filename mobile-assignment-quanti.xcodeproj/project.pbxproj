@@ -20,6 +20,10 @@
 		EC6C79002F10FED8006B8223 /* RocketListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6C78FF2F10FED8006B8223 /* RocketListView.swift */; };
 		EC6C79022F10FEED006B8223 /* RocketDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6C79012F10FEED006B8223 /* RocketDetailView.swift */; };
 		EC6C79042F10FF1F006B8223 /* RocketListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6C79032F10FF1F006B8223 /* RocketListViewModel.swift */; };
+		EC6C79062F1421CB006B8223 /* Stage.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6C79052F1421CB006B8223 /* Stage.swift */; };
+		EC6C79082F1421EC006B8223 /* Engines.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6C79072F1421EC006B8223 /* Engines.swift */; };
+		EC6C790A2F142221006B8223 /* ISP.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6C79092F142221006B8223 /* ISP.swift */; };
+		EC6C790C2F142282006B8223 /* Payloads.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6C790B2F142282006B8223 /* Payloads.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +60,10 @@
 		EC6C78FF2F10FED8006B8223 /* RocketListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RocketListView.swift; sourceTree = "<group>"; };
 		EC6C79012F10FEED006B8223 /* RocketDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RocketDetailView.swift; sourceTree = "<group>"; };
 		EC6C79032F10FF1F006B8223 /* RocketListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RocketListViewModel.swift; sourceTree = "<group>"; };
+		EC6C79052F1421CB006B8223 /* Stage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stage.swift; sourceTree = "<group>"; };
+		EC6C79072F1421EC006B8223 /* Engines.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Engines.swift; sourceTree = "<group>"; };
+		EC6C79092F142221006B8223 /* ISP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ISP.swift; sourceTree = "<group>"; };
+		EC6C790B2F142282006B8223 /* Payloads.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Payloads.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +156,10 @@
 			isa = PBXGroup;
 			children = (
 				EC6C78FB2F10FD34006B8223 /* Rocket.swift */,
+				EC6C79052F1421CB006B8223 /* Stage.swift */,
+				EC6C79072F1421EC006B8223 /* Engines.swift */,
+				EC6C79092F142221006B8223 /* ISP.swift */,
+				EC6C790B2F142282006B8223 /* Payloads.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -308,8 +320,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				EC6C78FE2F10FEAC006B8223 /* RocketService.swift in Sources */,
+				EC6C79082F1421EC006B8223 /* Engines.swift in Sources */,
+				EC6C790C2F142282006B8223 /* Payloads.swift in Sources */,
 				EC6C78CE2F0E8411006B8223 /* ContentView.swift in Sources */,
+				EC6C790A2F142221006B8223 /* ISP.swift in Sources */,
 				EC6C78D02F0E8411006B8223 /* Item.swift in Sources */,
+				EC6C79062F1421CB006B8223 /* Stage.swift in Sources */,
 				EC6C78CC2F0E8411006B8223 /* mobile_assignment_quantiApp.swift in Sources */,
 				EC6C79042F10FF1F006B8223 /* RocketListViewModel.swift in Sources */,
 				EC6C79002F10FED8006B8223 /* RocketListView.swift in Sources */,
