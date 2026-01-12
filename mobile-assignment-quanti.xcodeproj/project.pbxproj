@@ -26,6 +26,9 @@
 		EC6C790C2F142282006B8223 /* Payloads.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6C790B2F142282006B8223 /* Payloads.swift */; };
 		EC6C790E2F14352B006B8223 /* RocketServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6C790D2F14352B006B8223 /* RocketServiceProtocol.swift */; };
 		EC6C79122F143B3D006B8223 /* RocketServiceError.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6C79112F143B3D006B8223 /* RocketServiceError.swift */; };
+		EC6C79142F1567B5006B8223 /* ParameterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6C79132F1567B4006B8223 /* ParameterView.swift */; };
+		EC6C79162F156D62006B8223 /* StageParameterRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6C79152F156D62006B8223 /* StageParameterRow.swift */; };
+		EC6C79182F156D9F006B8223 /* StageCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6C79172F156D9F006B8223 /* StageCardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +71,9 @@
 		EC6C790B2F142282006B8223 /* Payloads.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Payloads.swift; sourceTree = "<group>"; };
 		EC6C790D2F14352B006B8223 /* RocketServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RocketServiceProtocol.swift; sourceTree = "<group>"; };
 		EC6C79112F143B3D006B8223 /* RocketServiceError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RocketServiceError.swift; sourceTree = "<group>"; };
+		EC6C79132F1567B4006B8223 /* ParameterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParameterView.swift; sourceTree = "<group>"; };
+		EC6C79152F156D62006B8223 /* StageParameterRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StageParameterRow.swift; sourceTree = "<group>"; };
+		EC6C79172F156D9F006B8223 /* StageCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StageCardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -191,6 +197,9 @@
 			children = (
 				EC6C78FF2F10FED8006B8223 /* RocketListView.swift */,
 				EC6C79012F10FEED006B8223 /* RocketDetailView.swift */,
+				EC6C79132F1567B4006B8223 /* ParameterView.swift */,
+				EC6C79152F156D62006B8223 /* StageParameterRow.swift */,
+				EC6C79172F156D9F006B8223 /* StageCardView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -342,6 +351,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EC6C78FE2F10FEAC006B8223 /* RocketService.swift in Sources */,
+				EC6C79142F1567B5006B8223 /* ParameterView.swift in Sources */,
 				EC6C79082F1421EC006B8223 /* Engines.swift in Sources */,
 				EC6C790C2F142282006B8223 /* Payloads.swift in Sources */,
 				EC6C790E2F14352B006B8223 /* RocketServiceProtocol.swift in Sources */,
@@ -350,11 +360,13 @@
 				EC6C79122F143B3D006B8223 /* RocketServiceError.swift in Sources */,
 				EC6C78D02F0E8411006B8223 /* Item.swift in Sources */,
 				EC6C79062F1421CB006B8223 /* Stage.swift in Sources */,
+				EC6C79182F156D9F006B8223 /* StageCardView.swift in Sources */,
 				EC6C78CC2F0E8411006B8223 /* mobile_assignment_quantiApp.swift in Sources */,
 				EC6C79042F10FF1F006B8223 /* RocketListViewModel.swift in Sources */,
 				EC6C79002F10FED8006B8223 /* RocketListView.swift in Sources */,
 				EC6C79022F10FEED006B8223 /* RocketDetailView.swift in Sources */,
 				EC6C78FC2F10FD34006B8223 /* Rocket.swift in Sources */,
+				EC6C79162F156D62006B8223 /* StageParameterRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
