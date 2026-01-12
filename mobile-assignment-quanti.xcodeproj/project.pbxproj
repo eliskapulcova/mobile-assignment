@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		EC6C78CC2F0E8411006B8223 /* mobile_assignment_quantiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6C78CB2F0E8411006B8223 /* mobile_assignment_quantiApp.swift */; };
-		EC6C78CE2F0E8411006B8223 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6C78CD2F0E8411006B8223 /* ContentView.swift */; };
-		EC6C78D02F0E8411006B8223 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6C78CF2F0E8411006B8223 /* Item.swift */; };
 		EC6C78D22F0E8414006B8223 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC6C78D12F0E8414006B8223 /* Assets.xcassets */; };
 		EC6C78D52F0E8414006B8223 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC6C78D42F0E8414006B8223 /* Preview Assets.xcassets */; };
 		EC6C78DF2F0E8414006B8223 /* mobile_assignment_quantiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6C78DE2F0E8414006B8223 /* mobile_assignment_quantiTests.swift */; };
@@ -51,8 +49,6 @@
 /* Begin PBXFileReference section */
 		EC6C78C82F0E8411006B8223 /* mobile-assignment-quanti.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "mobile-assignment-quanti.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC6C78CB2F0E8411006B8223 /* mobile_assignment_quantiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mobile_assignment_quantiApp.swift; sourceTree = "<group>"; };
-		EC6C78CD2F0E8411006B8223 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		EC6C78CF2F0E8411006B8223 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		EC6C78D12F0E8414006B8223 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EC6C78D42F0E8414006B8223 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EC6C78DA2F0E8414006B8223 /* mobile-assignment-quantiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "mobile-assignment-quantiTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -131,8 +127,6 @@
 				EC6C78F92F10FC14006B8223 /* ViewModel */,
 				EC6C78FA2F10FC35006B8223 /* View */,
 				EC6C78CB2F0E8411006B8223 /* mobile_assignment_quantiApp.swift */,
-				EC6C78CD2F0E8411006B8223 /* ContentView.swift */,
-				EC6C78CF2F0E8411006B8223 /* Item.swift */,
 				EC6C78D12F0E8414006B8223 /* Assets.xcassets */,
 				EC6C78D32F0E8414006B8223 /* Preview Content */,
 			);
@@ -355,10 +349,8 @@
 				EC6C79082F1421EC006B8223 /* Engines.swift in Sources */,
 				EC6C790C2F142282006B8223 /* Payloads.swift in Sources */,
 				EC6C790E2F14352B006B8223 /* RocketServiceProtocol.swift in Sources */,
-				EC6C78CE2F0E8411006B8223 /* ContentView.swift in Sources */,
 				EC6C790A2F142221006B8223 /* ISP.swift in Sources */,
 				EC6C79122F143B3D006B8223 /* RocketServiceError.swift in Sources */,
-				EC6C78D02F0E8411006B8223 /* Item.swift in Sources */,
 				EC6C79062F1421CB006B8223 /* Stage.swift in Sources */,
 				EC6C79182F156D9F006B8223 /* StageCardView.swift in Sources */,
 				EC6C78CC2F0E8411006B8223 /* mobile_assignment_quantiApp.swift in Sources */,

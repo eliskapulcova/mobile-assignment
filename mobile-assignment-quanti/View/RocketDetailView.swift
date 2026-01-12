@@ -16,7 +16,6 @@ struct RocketDetailView: View {
         ScrollView {
             VStack(alignment: .leading, spacing: 24) {
 
-                // MARK: - Overview
                 Text("Overview")
                     .font(.title2)
                     .bold()
@@ -25,7 +24,6 @@ struct RocketDetailView: View {
                     .font(.body)
                     .foregroundColor(.primary)
 
-                // MARK: - Parameters
                 Text("Parameters")
                     .font(.title2)
                     .bold()
@@ -77,11 +75,11 @@ struct RocketDetailView: View {
                             case .empty:
                                 ProgressView()
                                     .frame(maxWidth: .infinity)
-                                    .frame(height: 200) // placeholder height
+                                    .frame(height: 200)
                             case .success(let image):
                                 image
                                     .resizable()
-                                    .scaledToFit() // keeps aspect ratio
+                                    .scaledToFit()
                                     .frame(maxWidth: .infinity)
                                     .cornerRadius(12)
                             case .failure:
