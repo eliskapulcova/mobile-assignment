@@ -24,7 +24,7 @@ struct ParameterView: View {
         .foregroundColor(.white)
         .frame(maxWidth: .infinity)
         .padding()
-        .background(Color.red)
+        .background(Color.pink.opacity(0.75))
         .cornerRadius(12)
     }
 }

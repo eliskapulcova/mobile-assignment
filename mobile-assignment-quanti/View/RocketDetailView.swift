@@ -62,7 +62,6 @@ struct RocketDetailView: View {
                     burnTimeSeconds: rocket.secondStage.burnTimeSec ?? 0
                 )
                 
-                // MARK: - Photos
                 Text("Photos")
                     .font(.title2)
                     .bold()
