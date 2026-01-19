@@ -19,6 +19,7 @@ struct RocketListView: View {
                     ProgressView()
                 } else if let error = viewModel.errorMessage {
                     Text(error)
+                        .foregroundStyle(.primary)
                 } else {
                     List(viewModel.rockets) { rocket in
                         NavigationLink(value: rocket) {
@@ -31,15 +32,17 @@ struct RocketListView: View {
                                 VStack(alignment: .leading, spacing: 4) {
                                     Text(rocket.name)
                                         .font(.headline)
+                                        .foregroundStyle(.primary)
                                     
                                     Text("First flight: \(rocket.firstFlight)")
                                         .font(.subheadline)
-                                        .foregroundColor(.secondary)
+                                        .foregroundStyle(.secondary)
                                 }
                             }
                             .padding(.vertical, 4)
                         }
                     }
+                    .background(Color(.systemBackground))
                 }
             }
             .navigationTitle("Rockets")
@@ -51,4 +54,14 @@ struct RocketListView: View {
             }
         }
     }
+}
+
+#Preview {
+    RocketListView()
+        .preferredColorScheme(.light)
+}
+
+#Preview {
+    RocketListView()
+        .preferredColorScheme(.dark)
 }

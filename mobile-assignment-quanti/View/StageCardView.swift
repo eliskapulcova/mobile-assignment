@@ -23,7 +23,7 @@ struct StageCardView: View {
         VStack(alignment: .leading, spacing: 12) {
             Text(stageName)
                 .font(.headline)
-                .foregroundColor(.black)
+                .foregroundStyle(.primary)
 
             StageParameterRow(iconName: "Reusable", label: reusableLabel)
             StageParameterRow(iconName: "Engine", label: "\(engines) engines")
@@ -32,7 +32,8 @@ struct StageCardView: View {
         }
         .padding()
         .frame(maxWidth: .infinity)
-        .background(Color.gray.opacity(0.1))
+        //.background(Color.gray.opacity(0.1))
+        .background(Color(.secondarySystemBackground))
         .cornerRadius(12)
     }
 }

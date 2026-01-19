@@ -19,11 +19,12 @@ struct StageParameterRow: View {
                 .resizable()
                 .scaledToFit()
                 .frame(width: 20, height: 20)
+                .foregroundStyle(.primary)
 
             Text(label)
-                .foregroundColor(.black)
-                .bold()
                 .font(.body)
+                .fontWeight(.semibold)
+                .foregroundStyle(.primary)
 
             Spacer()
         }

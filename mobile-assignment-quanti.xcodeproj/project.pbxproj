@@ -27,6 +27,9 @@
 		EC6C79142F1567B5006B8223 /* ParameterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6C79132F1567B4006B8223 /* ParameterView.swift */; };
 		EC6C79162F156D62006B8223 /* StageParameterRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6C79152F156D62006B8223 /* StageParameterRow.swift */; };
 		EC6C79182F156D9F006B8223 /* StageCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6C79172F156D9F006B8223 /* StageCardView.swift */; };
+		EC6C791B2F18FA3C006B8223 /* MotionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6C791A2F18FA3C006B8223 /* MotionManager.swift */; };
+		EC6C791D2F18FAAA006B8223 /* RocketFlightView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6C791C2F18FAAA006B8223 /* RocketFlightView.swift */; };
+		EC6C791F2F190081006B8223 /* RocketFlameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6C791E2F190081006B8223 /* RocketFlameView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +73,9 @@
 		EC6C79132F1567B4006B8223 /* ParameterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParameterView.swift; sourceTree = "<group>"; };
 		EC6C79152F156D62006B8223 /* StageParameterRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StageParameterRow.swift; sourceTree = "<group>"; };
 		EC6C79172F156D9F006B8223 /* StageCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StageCardView.swift; sourceTree = "<group>"; };
+		EC6C791A2F18FA3C006B8223 /* MotionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionManager.swift; sourceTree = "<group>"; };
+		EC6C791C2F18FAAA006B8223 /* RocketFlightView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RocketFlightView.swift; sourceTree = "<group>"; };
+		EC6C791E2F190081006B8223 /* RocketFlameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RocketFlameView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +126,7 @@
 		EC6C78CA2F0E8411006B8223 /* mobile-assignment-quanti */ = {
 			isa = PBXGroup;
 			children = (
+				EC6C79192F18FA21006B8223 /* Services */,
 				EC6C79102F143B13006B8223 /* Enum */,
 				EC6C790F2F143537006B8223 /* Protocols */,
 				EC6C78F72F10FBE1006B8223 /* Model */,
@@ -194,6 +201,8 @@
 				EC6C79132F1567B4006B8223 /* ParameterView.swift */,
 				EC6C79152F156D62006B8223 /* StageParameterRow.swift */,
 				EC6C79172F156D9F006B8223 /* StageCardView.swift */,
+				EC6C791C2F18FAAA006B8223 /* RocketFlightView.swift */,
+				EC6C791E2F190081006B8223 /* RocketFlameView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -212,6 +221,14 @@
 				EC6C79112F143B3D006B8223 /* RocketServiceError.swift */,
 			);
 			path = Enum;
+			sourceTree = "<group>";
+		};
+		EC6C79192F18FA21006B8223 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				EC6C791A2F18FA3C006B8223 /* MotionManager.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -346,6 +363,8 @@
 			files = (
 				EC6C78FE2F10FEAC006B8223 /* RocketService.swift in Sources */,
 				EC6C79142F1567B5006B8223 /* ParameterView.swift in Sources */,
+				EC6C791F2F190081006B8223 /* RocketFlameView.swift in Sources */,
+				EC6C791D2F18FAAA006B8223 /* RocketFlightView.swift in Sources */,
 				EC6C79082F1421EC006B8223 /* Engines.swift in Sources */,
 				EC6C790C2F142282006B8223 /* Payloads.swift in Sources */,
 				EC6C790E2F14352B006B8223 /* RocketServiceProtocol.swift in Sources */,
@@ -359,6 +378,7 @@
 				EC6C79022F10FEED006B8223 /* RocketDetailView.swift in Sources */,
 				EC6C78FC2F10FD34006B8223 /* Rocket.swift in Sources */,
 				EC6C79162F156D62006B8223 /* StageParameterRow.swift in Sources */,
+				EC6C791B2F18FA3C006B8223 /* MotionManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

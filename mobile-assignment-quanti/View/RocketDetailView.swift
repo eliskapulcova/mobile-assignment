@@ -100,6 +100,7 @@ struct RocketDetailView: View {
             }
             .padding()
         }
+        .background(Color(.systemBackground))
         .navigationTitle(rocket.name)
         .navigationBarTitleDisplayMode(.inline)
     }
