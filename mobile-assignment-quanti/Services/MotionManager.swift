@@ -20,7 +20,12 @@ final class MotionManager: ObservableObject {
 
         motionManager.startDeviceMotionUpdates(to: .main) { motion, _ in
             guard let motion else { return }
-            self.pitch = motion.attitude.pitch
+            
+            let alpha = 0.1
+            let newPitch = motion.attitude.pitch
+            self.pitch = alpha * newPitch + (1 - alpha) * self.pitch
+            
+            self.pitch = max(min(motion.attitude.pitch, 0.5), -0.5)
         }
     }
 

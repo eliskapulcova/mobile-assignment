@@ -96,13 +96,20 @@ struct RocketDetailView: View {
                         }
                     }
                 }
-
             }
-            .padding()
+            .padding(.top, 16)
         }
         .background(Color(.systemBackground))
         .navigationTitle(rocket.name)
         .navigationBarTitleDisplayMode(.inline)
+        .toolbar {
+                    ToolbarItem(placement: .navigationBarTrailing) {
+                        NavigationLink(destination: RocketFlightView()) {
+                            Text("Launch")
+                                .bold()
+                }
+            }
+        }
     }
 }
 
