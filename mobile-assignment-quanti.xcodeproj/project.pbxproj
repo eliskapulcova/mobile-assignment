@@ -29,7 +29,6 @@
 		EC6C79182F156D9F006B8223 /* StageCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6C79172F156D9F006B8223 /* StageCardView.swift */; };
 		EC6C791B2F18FA3C006B8223 /* MotionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6C791A2F18FA3C006B8223 /* MotionManager.swift */; };
 		EC6C791D2F18FAAA006B8223 /* RocketFlightView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6C791C2F18FAAA006B8223 /* RocketFlightView.swift */; };
-		EC6C791F2F190081006B8223 /* RocketFlameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6C791E2F190081006B8223 /* RocketFlameView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,7 +74,6 @@
 		EC6C79172F156D9F006B8223 /* StageCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StageCardView.swift; sourceTree = "<group>"; };
 		EC6C791A2F18FA3C006B8223 /* MotionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionManager.swift; sourceTree = "<group>"; };
 		EC6C791C2F18FAAA006B8223 /* RocketFlightView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RocketFlightView.swift; sourceTree = "<group>"; };
-		EC6C791E2F190081006B8223 /* RocketFlameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RocketFlameView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -202,7 +200,6 @@
 				EC6C79152F156D62006B8223 /* StageParameterRow.swift */,
 				EC6C79172F156D9F006B8223 /* StageCardView.swift */,
 				EC6C791C2F18FAAA006B8223 /* RocketFlightView.swift */,
-				EC6C791E2F190081006B8223 /* RocketFlameView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -363,7 +360,6 @@
 			files = (
 				EC6C78FE2F10FEAC006B8223 /* RocketService.swift in Sources */,
 				EC6C79142F1567B5006B8223 /* ParameterView.swift in Sources */,
-				EC6C791F2F190081006B8223 /* RocketFlameView.swift in Sources */,
 				EC6C791D2F18FAAA006B8223 /* RocketFlightView.swift in Sources */,
 				EC6C79082F1421EC006B8223 /* Engines.swift in Sources */,
 				EC6C790C2F142282006B8223 /* Payloads.swift in Sources */,

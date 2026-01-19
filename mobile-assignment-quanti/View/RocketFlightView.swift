@@ -48,9 +48,9 @@ struct RocketFlightView: View {
 struct RocketFlightView_Previews: PreviewProvider {
     static var previews: some View {
         RocketFlightView()
-            .preferredColorScheme(.dark) // Preview Dark Mode
+            .preferredColorScheme(.dark)
         RocketFlightView()
-            .preferredColorScheme(.light) // Preview Light Mode
+            .preferredColorScheme(.light)
     }
 }
 
